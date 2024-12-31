@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in a Dockerfile. The original Dockerfile uses `ubuntu:latest` and is missing `-y` in `apt-get update`, making it unreliable and less efficient. The fixed version addresses these issues by specifying a precise image and using `-y` flag.
